@@ -1,18 +1,21 @@
 {
   "id": "warm-cold-colors",
 
+
   "schema": {
-    "input": ["red", "green", "blue"],
-    "target": ["label"]
+    "input": [
+      { "name": "red",   "type": "number" },
+      { "name": "green", "type": "number" },
+      { "name": "blue",  "type": "number" }
+    ],
+    "target": [
+      { "name": "label", "type": "number" }
+    ]
   },
 
   "labels": {
-    "0": {
-      "name": "cold"
-    },
-    "1": {
-      "name": "warm"
-    }
+    "0": { "name": "cold" },
+    "1": { "name": "warm" }
   },
 
   "splits": ["train"],
