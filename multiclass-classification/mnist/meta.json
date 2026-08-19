@@ -21,5 +21,6 @@
     "9": { "name": "9" }
   },
   "splits": ["train"],
-  "file_format": "csv"
+  "file_format": "csv",
+  "hasPrivateSplit": false
 }
