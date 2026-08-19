@@ -1,5 +1,6 @@
 {
   "id": "table-mnist",
+  
   "schema": {
     "input": [
       { "name": "0",   "type": "number" },
@@ -803,6 +804,8 @@
     "8": { "name": "8" },
     "9": { "name": "9" }
   },
+
   "splits": ["train"],
-  "file_format": "csv"
+  "file_format": "csv",
+  "hasPrivateSplit": false
 }

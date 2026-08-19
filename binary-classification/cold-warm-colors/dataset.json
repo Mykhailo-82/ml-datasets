@@ -1,7 +1,6 @@
 {
   "id": "warm-cold-colors",
 
-
   "schema": {
     "input": [
       { "name": "red",   "type": "number" },
@@ -12,13 +11,12 @@
       { "name": "label", "type": "number" }
     ]
   },
-
   "labels": {
     "0": { "name": "cold" },
     "1": { "name": "warm" }
   },
-
+  
   "splits": ["train"],
-
-  "file_format": "csv"
+  "file_format": "csv",
+  "hasPrivateSplit": false
 }
