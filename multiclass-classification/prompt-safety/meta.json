@@ -1,0 +1,31 @@
+{
+  "id": "prompt_safety",
+  "schema": {
+    "input": [
+      {
+        "name": "prompt",
+        "type": "text"
+      }
+    ],
+    "target": [
+      {
+        "name": "action",
+        "type": "category"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "ALLOW"
+    },
+    "1": {
+      "name": "REFUSE"
+    },
+    "3": {
+      "name": "CLARIFY"
+    }
+  },
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}

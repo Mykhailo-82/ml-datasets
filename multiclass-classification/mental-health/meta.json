@@ -1,0 +1,23 @@
+{
+  "id": "mental-health",
+  "schema": {
+    "input": [
+      { "name": "text", "type": "text" }
+    ],
+    "target": [
+      { "name": "label", "type": "number" }
+    ]
+  },
+  "labels": {
+    "0": { "name": "Normal" },
+    "1": { "name": "Anxiety" },
+    "2": { "name": "Bipolar" },
+    "3": { "name": "Depression" },
+    "4": { "name": "Personality disorder" },
+    "5": { "name": "Stress" },
+    "6": { "name": "Suicidal" }
+  },
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
