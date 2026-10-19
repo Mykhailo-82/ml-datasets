@@ -1,0 +1,43 @@
+{
+  "id": "faces30",
+  "schema": {
+    "input": [
+      { "name": "image", "type": "image" }
+    ],
+    "target": [
+      { "name": "left_eye_center_x",         "type": "number" },
+      { "name": "left_eye_center_y",         "type": "number" },
+      { "name": "right_eye_center_x",        "type": "number" },
+      { "name": "right_eye_center_y",        "type": "number" },
+      { "name": "left_eye_inner_corner_x",   "type": "number" },
+      { "name": "left_eye_inner_corner_y",   "type": "number" },
+      { "name": "left_eye_outer_corner_x",   "type": "number" },
+      { "name": "left_eye_outer_corner_y",   "type": "number" },
+      { "name": "right_eye_inner_corner_x",  "type": "number" },
+      { "name": "right_eye_inner_corner_y",  "type": "number" },
+      { "name": "right_eye_outer_corner_x",  "type": "number" },
+      { "name": "right_eye_outer_corner_y",  "type": "number" },
+      { "name": "left_eyebrow_inner_end_x",  "type": "number" },
+      { "name": "left_eyebrow_inner_end_y",  "type": "number" },
+      { "name": "left_eyebrow_outer_end_x",  "type": "number" },
+      { "name": "left_eyebrow_outer_end_y",  "type": "number" },
+      { "name": "right_eyebrow_inner_end_x", "type": "number" },
+      { "name": "right_eyebrow_inner_end_y", "type": "number" },
+      { "name": "right_eyebrow_outer_end_x", "type": "number" },
+      { "name": "right_eyebrow_outer_end_y", "type": "number" },
+      { "name": "nose_tip_x",                "type": "number" },
+      { "name": "nose_tip_y",                "type": "number" },
+      { "name": "mouth_left_corner_x",       "type": "number" },
+      { "name": "mouth_left_corner_y",       "type": "number" },
+      { "name": "mouth_right_corner_x",      "type": "number" },
+      { "name": "mouth_right_corner_y",      "type": "number" },
+      { "name": "mouth_center_top_lip_x",    "type": "number" },
+      { "name": "mouth_center_top_lip_y",    "type": "number" },
+      { "name": "mouth_center_bottom_lip_x", "type": "number" },
+      { "name": "mouth_center_bottom_lip_y", "type": "number" }
+    ]
+  },
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}

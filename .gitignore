@@ -2,4 +2,4 @@ multiclass-classification/table-mnist/public/data.csv
 multiclass-classification/table-mnist/private/data.csv
 # multiclass-classification/prompt-safety/data
 # multiclass-classification/mental-health/data
-keypoint-detection/faces/
+keypoint-detection/faces/data
