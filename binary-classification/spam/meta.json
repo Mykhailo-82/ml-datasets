@@ -1,0 +1,20 @@
+{
+  "id": "spam",
+
+  "schema": {
+    "input": [
+      { "name": "Message", "type": "text" }
+    ],
+    "target": [
+      { "name": "Category", "type": "number" }
+    ]
+  },
+  "labels": {
+    "0": { "name": "Ham" },
+    "1": { "name": "Spam" }
+  },
+  
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
