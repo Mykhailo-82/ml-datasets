@@ -1,0 +1,20 @@
+{
+  "id": "code-vs-text",
+
+  "schema": {
+    "input": [
+      { "name": "line", "type": "text" }
+    ],
+    "target": [
+      { "name": "label", "type": "number" }
+    ]
+  },
+  "labels": {
+    "0": { "name": "Text" },
+    "1": { "name": "Code" }
+  },
+  
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
