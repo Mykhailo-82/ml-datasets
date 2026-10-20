@@ -1,0 +1,14 @@
+{
+  "id": "OCR-printed-85k",
+  "schema": {
+    "input": [
+      { "name": "image", "type": "image" }
+    ],
+    "target": [
+      { "name": "text", "type": "text" }
+    ]
+  },
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
