@@ -1,0 +1,14 @@
+{
+  "id": "image-ghibli",
+  "schema": {
+    "input": [
+      { "name": "original", "type": "image" }
+    ],
+    "target": [
+      { "name": "ghibli", "type": "image" }
+    ]
+  },
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
