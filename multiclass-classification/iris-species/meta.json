@@ -1,0 +1,22 @@
+{
+  "id": "iris-species",
+  "schema": {
+    "input": [
+      { "name": "sepal_length", "type": "number" },
+      { "name": "sepal_width", "type": "number" },
+      { "name": "petal_length", "type": "number" },
+      { "name": "petal_width", "type": "number" }
+    ],
+    "target": [
+      { "name": "label", "type": "number" }
+    ]
+  },
+  "labels": {
+    "0": { "name": "Setosa" },
+    "1": { "name": "Versicolor" },
+    "2": { "name": "Virginica" }
+  },
+  "splits": ["train"],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
