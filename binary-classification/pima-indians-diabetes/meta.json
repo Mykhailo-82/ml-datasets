@@ -1,0 +1,58 @@
+{
+  "id": "pima-indians-diabetes",
+  "schema": {
+    "input": [
+      {
+        "name": "Pregnancies",
+        "type": "number"
+      },
+      {
+        "name": "Glucose",
+        "type": "number"
+      },
+      {
+        "name": "BloodPressure",
+        "type": "number"
+      },
+      {
+        "name": "SkinThickness",
+        "type": "number"
+      },
+      {
+        "name": "Insulin",
+        "type": "number"
+      },
+      {
+        "name": "BMI",
+        "type": "number"
+      },
+      {
+        "name": "DiabetesPedigreeFunction",
+        "type": "number"
+      },
+      {
+        "name": "Age",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Outcome",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "No Diabetes"
+    },
+    "1": {
+      "name": "Diabetes"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
