@@ -1,0 +1,48 @@
+{
+  "id": "wall-following-robot",
+  "schema": {
+    "input": [
+      {
+        "name": "SD_front",
+        "type": "number"
+      },
+      {
+        "name": "SD_left",
+        "type": "number"
+      },
+      {
+        "name": "SD_right",
+        "type": "number"
+      },
+      {
+        "name": "SD_back",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Class",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Forward"
+    },
+    "1": {
+      "name": "Sharp-Right"
+    },
+    "2": {
+      "name": "Slight-Right"
+    },
+    "3": {
+      "name": "Slight-Left"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}

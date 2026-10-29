@@ -1,0 +1,58 @@
+{
+  "id": "pulsar-star",
+  "schema": {
+    "input": [
+      {
+        "name": "Profile_mean",
+        "type": "number"
+      },
+      {
+        "name": "Profile_stdev",
+        "type": "number"
+      },
+      {
+        "name": "Profile_skewness",
+        "type": "number"
+      },
+      {
+        "name": "Profile_kurtosis",
+        "type": "number"
+      },
+      {
+        "name": "DM_mean",
+        "type": "number"
+      },
+      {
+        "name": "DM_stdev",
+        "type": "number"
+      },
+      {
+        "name": "DM_skewness",
+        "type": "number"
+      },
+      {
+        "name": "DM_kurtosis",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Class",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Non-Pulsar"
+    },
+    "1": {
+      "name": "Pulsar"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
