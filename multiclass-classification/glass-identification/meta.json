@@ -1,0 +1,74 @@
+{
+  "id": "glass-identification",
+  "schema": {
+    "input": [
+      {
+        "name": "RI",
+        "type": "number"
+      },
+      {
+        "name": "Na",
+        "type": "number"
+      },
+      {
+        "name": "Mg",
+        "type": "number"
+      },
+      {
+        "name": "Al",
+        "type": "number"
+      },
+      {
+        "name": "Si",
+        "type": "number"
+      },
+      {
+        "name": "K",
+        "type": "number"
+      },
+      {
+        "name": "Ca",
+        "type": "number"
+      },
+      {
+        "name": "Ba",
+        "type": "number"
+      },
+      {
+        "name": "Fe",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Type",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Building Windows Float Processed"
+    },
+    "1": {
+      "name": "Building Windows Non-Float Processed"
+    },
+    "2": {
+      "name": "Vehicle Windows"
+    },
+    "3": {
+      "name": "Containers"
+    },
+    "4": {
+      "name": "Tableware"
+    },
+    "5": {
+      "name": "Headlamps"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
