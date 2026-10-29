@@ -1,0 +1,54 @@
+{
+  "id": "shuttle",
+  "schema": {
+    "input": [
+      {
+        "name": "feature_1",
+        "type": "number"
+      },
+      {
+        "name": "feature_2",
+        "type": "number"
+      },
+      {
+        "name": "feature_3",
+        "type": "number"
+      },
+      {
+        "name": "feature_4",
+        "type": "number"
+      },
+      {
+        "name": "feature_5",
+        "type": "number"
+      },
+      {
+        "name": "feature_6",
+        "type": "number"
+      },
+      {
+        "name": "feature_7",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "label",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Typical"
+    },
+    "1": {
+      "name": "Atypical"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
