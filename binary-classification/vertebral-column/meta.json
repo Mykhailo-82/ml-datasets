@@ -1,0 +1,50 @@
+{
+  "id": "vertebral-column",
+  "schema": {
+    "input": [
+      {
+        "name": "pelvic_incidence",
+        "type": "number"
+      },
+      {
+        "name": "pelvic_tilt",
+        "type": "number"
+      },
+      {
+        "name": "lumbar_lordosis_angle",
+        "type": "number"
+      },
+      {
+        "name": "sacral_slope",
+        "type": "number"
+      },
+      {
+        "name": "pelvic_radius",
+        "type": "number"
+      },
+      {
+        "name": "degree_spondylolisthesis",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Class",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Normal"
+    },
+    "1": {
+      "name": "Abnormal"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}

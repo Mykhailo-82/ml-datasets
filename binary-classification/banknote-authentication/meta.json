@@ -1,0 +1,42 @@
+{
+  "id": "banknote-authentication",
+  "schema": {
+    "input": [
+      {
+        "name": "variance",
+        "type": "number"
+      },
+      {
+        "name": "skewness",
+        "type": "number"
+      },
+      {
+        "name": "curtosis",
+        "type": "number"
+      },
+      {
+        "name": "entropy",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Class",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Real"
+    },
+    "1": {
+      "name": "Fake"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
