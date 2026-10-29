@@ -1,0 +1,81 @@
+{
+  "id": "wine",
+  "schema": {
+    "input": [
+      {
+        "name": "Alcohol",
+        "type": "number"
+      },
+      {
+        "name": "Malic acid",
+        "type": "number"
+      },
+      {
+        "name": "Ash",
+        "type": "number"
+      },
+      {
+        "name": "Alcalinity of ash",
+        "type": "number"
+      },
+      {
+        "name": "Magnesium",
+        "type": "number"
+      },
+      {
+        "name": "Total phenols",
+        "type": "number"
+      },
+      {
+        "name": "Flavanoids",
+        "type": "number"
+      },
+      {
+        "name": "Nonflavanoid phenols",
+        "type": "number"
+      },
+      {
+        "name": "Proanthocyanins",
+        "type": "number"
+      },
+      {
+        "name": "Color intensity",
+        "type": "number"
+      },
+      {
+        "name": "Hue",
+        "type": "number"
+      },
+      {
+        "name": "OD280/OD315 of diluted wines",
+        "type": "number"
+      },
+      {
+        "name": "Proline",
+        "type": "number"
+      }
+    ],
+    "target": [
+      {
+        "name": "Category",
+        "type": "number"
+      }
+    ]
+  },
+  "labels": {
+    "0": {
+      "name": "Barolo"
+    },
+    "1": {
+      "name": "Grignolino"
+    },
+    "2": {
+      "name": "Barbera"
+    }
+  },
+  "splits": [
+    "train"
+  ],
+  "file_format": "csv",
+  "hasPrivateSplit": true
+}
