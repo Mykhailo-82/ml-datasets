@@ -2,10 +2,10 @@
   "id": "mental-health",
   "schema": {
     "input": [
-      { "name": "text", "type": "text" }
+      { "name": "statement", "type": "text" }
     ],
     "target": [
-      { "name": "label", "type": "number" }
+      { "name": "status", "type": "number" }
     ]
   },
   "labels": {
